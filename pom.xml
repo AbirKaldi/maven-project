@@ -36,7 +36,9 @@
 <artifactId>maven-pmd-plugin</artifactId>
 <version>3.13.0</version>
 <configuration>
-<xmlOutputDirectory>pmd-reports</xmlOutputDirectory>
+	<xmlOutput>true</xmlOutput>
+	<effort>Max</effort>
+<xmlOutputDirectory>reports/pmd</xmlOutputDirectory>
 <!-- Répertoire de sortie pour les rapports XML -->
 </configuration>
 <executions>
